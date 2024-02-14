@@ -125,14 +125,15 @@
           <p class="subtitle">Projects</p>
         </div>
         
-        <div class="column">
+        <div class="column" style="width: 100%;">
           <div class="content">
           <table>
             <tbody>
                     <tr>
                       <td style="width: 50%;">
+                         <img src="images/EIP.png" alt="Figure 2. Workflow of the proposed few-shot event classification approach. (a) We propose four strategies to create hard prompts based on the class labels (PCL) and a set of static templates (PST) as well as based on knowledge graph information, i.e.,Wikidata descriptions (PWD) and Wikipedia summaries (PWS). (b) We use CoOp [36] for soft prompt learning (SPL) based on few training images. (c) Once the prompts are produced, we propose a prompt ensemble to compute the similarity to a test image during inference. Finally, the sorted list of event labels based on the similarity values are the top-k predictions. Please note that we only use hard prompts for zero-shot event classification." >
                       Event classification in images plays a vital role in multimedia analysis especially with the prevalence of fake news on social media and the Web. The majority of approaches for event classification rely on large sets of labeled training data. However, image labels for fine-grained event instances (e.g., 2016 Summer Olympics) can be sparse, incorrect, ambiguous, etc. A few approaches have addressed the lack of labeled data for event classification but cover only few events. Moreover, vision-language models that allow for zero-shot and few-shot classification with prompting have not yet been extensively exploited. In this paper, we propose four different techniques to create hard prompts including knowledge graph information from Wikidata and Wikipedia as well as an ensemble approach for zero-shot event classification. We also integrate prompt learning for state-of-the-art vision-language models to address few-shot event classification. Experimental results on six benchmarks including a new dataset comprising event instances from various domains, such as politics and natural disasters, show that our proposed approaches require much fewer training images than supervised baselines and the state-of-the-art while achieving better results. 
-                      <img src="images/EIP.png" >
+                     
                       </td>
                       <td>Row 1, Cell 2</td>
                     </tr>
